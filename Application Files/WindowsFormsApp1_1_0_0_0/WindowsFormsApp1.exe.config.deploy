@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+    <configSections>
+    </configSections>
+    <connectionStrings>
+        <add name="WindowsFormsApp1.Properties.Settings.mydbConnectionString"
+            connectionString="server=localhost;user id=root;password=hienxk1;persistsecurityinfo=True;database=mydb;allowuservariables=True"
+            providerName="MySql.Data.MySqlClient" />
+        <add name="WindowsFormsApp1.Properties.Settings.mydbClasses"
+            connectionString="server=localhost;user id=root;persistsecurityinfo=True;database=mydb"
+            providerName="MySql.Data.MySqlClient" />
+        <add name="WindowsFormsApp1.Properties.Settings.mydbConnectionString1"
+            connectionString="server=localhost;user id=root;password=hienxk1;database=mydb;persistsecurityinfo=True"
+            providerName="MySql.Data.MySqlClient" />
+        <add name="WindowsFormsApp1.Properties.Settings.mydbConnectionString2"
+            connectionString="server=localhost;user id=root;password=hienxk1;persistsecurityinfo=True;database=mydb"
+            providerName="MySql.Data.MySqlClient" />
+    </connectionStrings>
+    <startup> 
+        <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.7.2" />
+    </startup>
+</configuration>
